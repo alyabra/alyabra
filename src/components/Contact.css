@@ -1,0 +1,11 @@
+
+.contact-container {
+    text-align: center;
+    color: white;
+    place-items: center;
+}
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}

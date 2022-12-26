@@ -1,0 +1,31 @@
+.aboutMe-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    /* height: 100px; */
+}
+.profilePicture-container {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+}
+.profilePicture {
+    height: 200px;
+    width: auto;
+    border-radius: 10%;
+    margin: 10px auto;
+    box-shadow: 5px 2px black;
+}
+.aboutMe-info--container {
+    margin: 50px;
+}
+.list-aboutMe {
+    display: flex;
+}
+
+@media (min-width: 1250px) {
+    .aboutMe-container {
+        flex-direction: row;
+    }
+}

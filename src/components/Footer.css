@@ -1,0 +1,15 @@
+footer {
+    color: white;
+    text-align: center;
+}
+.container {
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+}
+.child {
+    margin: 20px auto;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
