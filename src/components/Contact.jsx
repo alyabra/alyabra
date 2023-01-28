@@ -8,7 +8,7 @@ import Icon from './Icon'
 
 const Contact = () => {
   return (
-    <div className='contact-container'>
+    <section className='contact-container' id='contact'>
         <h3>Redes sociales</h3>
         <div className='icons-container'>
           <Icon source={logoFacebook}/>
@@ -16,7 +16,7 @@ const Contact = () => {
           <Icon source={logoLinkeding}/>
           <Icon source={logoGoogle}/>
         </div>
-    </div>
+    </section>
   )
 }
 

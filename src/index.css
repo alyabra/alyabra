@@ -16,4 +16,8 @@ html {
   font-family: 'Lato', sans-serif;
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto', sans-serif;
+  color: white;
+}
+section[id] {
+  scroll-margin-top: 62px;
 }

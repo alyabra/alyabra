@@ -1,0 +1,22 @@
+.slider-proyects{
+    display: flex;
+    gap: 20vw;
+    width: 100vw;
+    padding: 10px 20vw;
+    border: solid black 3px;
+    overflow-x: scroll;
+    /* justify-content: center; */
+    scroll-snap-type: x mandatory;
+}
+.proyect {
+    width: 100vw;
+    /* scroll-snap-align: x; */
+    scroll-snap-align: center;
+}
+.image-proyect-desktop {
+    width: auto;
+    max-height: 70vh;
+    /* width: fit-content; */
+    margin-left: 2px;
+    margin-right: 2px;
+}

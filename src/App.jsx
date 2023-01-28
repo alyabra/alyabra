@@ -2,6 +2,8 @@ import Navar from "./components/Navar"
 import Footer from "./components/Footer"
 import AboutMe from "./components/AboutMe"
 import Contact from "./components/Contact"
+import MyProyects from "./components/MyProyects"
+import './App.css'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
     <div className="App">
       <Navar />
       <AboutMe />
+      <MyProyects />
+      <MyProyects />
       <Contact />
       <Footer />
     </div>
