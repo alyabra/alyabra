@@ -19,7 +19,7 @@ const AboutMe = () => {
             
         </div>
         <div className='aboutMe-info--container'>
-            <h2>Sobre mi</h2>
+            <h2 className='aboutMe-info--container-title'>Sobre mi</h2>
             <ListAboutMe state={state} change={change} />
             <AboutMeDescription state={state}/>
         </div>

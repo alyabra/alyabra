@@ -1,17 +1,20 @@
-.slider-proyects{
-    display: flex;
-    gap: 20vw;
-    width: 100vw;
-    padding: 10px 20vw;
-    border: solid black 3px;
-    overflow-x: scroll;
-    /* justify-content: center; */
-    scroll-snap-type: x mandatory;
+.proyects-container {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
 }
 .proyect {
     width: 100vw;
     /* scroll-snap-align: x; */
     scroll-snap-align: center;
+}
+.slider-proyects{
+    display: flex;
+    gap: 20vw;
+    width: 100vw;
+    padding: 10px 20vw;
+    overflow-x: scroll;
+    /* justify-content: center; */
+    scroll-snap-type: x mandatory;
 }
 .image-proyect-desktop {
     width: auto;

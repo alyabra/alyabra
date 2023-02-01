@@ -25,6 +25,9 @@
     margin: 5%; 
     height: 50%;   
 }
+.aboutMe-info--container-title {
+    margin-bottom: 10px;
+}
 
 @media (min-width: 1250px) {
     .aboutMe-container {
