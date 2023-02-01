@@ -12,7 +12,6 @@ function App() {
       <Navar />
       <AboutMe />
       <MyProyects />
-      <MyProyects />
       <Contact />
       <Footer />
     </div>

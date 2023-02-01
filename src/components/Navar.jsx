@@ -20,7 +20,7 @@ const Navar = () => {
   return (
     <nav className={scrolled ? 'active' :''}>
       <div className='left-nav'>
-        <p> {'<Bienvenido />'}</p>
+        <p>Hola    :3 </p>
       </div>
       <div className='right-nav'>
         <div className='icon-menu-container'>

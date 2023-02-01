@@ -26,11 +26,6 @@
     height: 50%;   
 }
 
-
-.list-aboutMe {
-    display: flex;
-}
-
 @media (min-width: 1250px) {
     .aboutMe-container {
         flex-direction: row;
