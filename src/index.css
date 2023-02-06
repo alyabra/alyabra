@@ -8,6 +8,7 @@
   --blue--react: #3bdafb;
   --my-color--dark: #1a2130;
   --my-color--wine: #5E2129;
+  --my-textColor: white;
 }
 html {
   width: 100%;
@@ -16,8 +17,11 @@ html {
   font-family: 'Lato', sans-serif;
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: var(--my-textColor);
 }
 section[id] {
   scroll-margin-top: 62px;
+}
+a {
+  color: var(--my-textColor);
 }

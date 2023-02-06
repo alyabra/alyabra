@@ -1,9 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import logoFacebook from "../assets/logo-facebook.svg"
 import logoTwitter from "../assets/logo-twitter.svg"
 import logoLinkeding from "../assets/logo-linkedin.svg"
-import logoGoogle from "../assets/logo-google.svg"
+import logoGithub from "../assets/logo-github.svg"
 import Icon from './Icon'
 
 const Contact = () => {
@@ -11,10 +10,9 @@ const Contact = () => {
     <section className='contact-container' id='contact'>
         <h3>Redes sociales</h3>
         <div className='icons-container'>
-          <Icon source={logoFacebook}/>
-          <Icon source={logoTwitter}/>
-          <Icon source={logoLinkeding}/>
-          <Icon source={logoGoogle}/>
+          <Icon source={logoTwitter} link={"https://www.linkedin.com/in/alyabra-alejandro-vargas-ch%C3%A1vez-664ba41a6/"} name={"Twitter"}/>
+          <Icon source={logoLinkeding} link={"https://www.linkedin.com/in/alyabra-alejandro-vargas-ch%C3%A1vez-664ba41a6/"} name={"Linkedin"}/>
+          <Icon source={logoGithub} link={"https://github.com/alyabra/"} name={"Github"}/>
         </div>
     </section>
   )

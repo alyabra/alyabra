@@ -7,7 +7,7 @@ const Navar = () => {
   const [scrolled, setScrolled] = useState(false)
  
   const changeNavStyle = () => {
-    // setScrolled(true)
+
     if(window.scrollY >= 10) {
       setScrolled(true)
     }

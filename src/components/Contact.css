@@ -3,9 +3,13 @@
     text-align: center;
     color: white;
     place-items: center;
+    width: 100%;
 }
 .icons-container {
     display: flex;
     justify-content: center;
-    gap: 6px;
+    margin: 0 100px;
+    /* gap: 10px; */
+    /* height: 100px; */
+    /* justify-content: space-around; */
 }
