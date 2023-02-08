@@ -5,11 +5,13 @@
     top: 59px;
     width: 50vw;
     height: 150px;
-    /* background-color: black; */
     background-color: var(--my-color--dark);
     box-shadow:  10px 5px 5px black;
     border-radius: 0 5px;
     padding: 20px 20px;
+}
+.display {
+    display: block;
 }
 .nav__menu--list {
     display: flex;

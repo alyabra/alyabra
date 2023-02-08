@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react'
 import './TypingEffect.css'
 
 const TypingEffect = () => {
+    {/* TODO: Hacer que cuando no se este visualizando no corra el typingEffect */}
     const [actives, setActives] = useState(true)
+    
     const [paragraphCounter,setParagraphCounter] = useState(0)
     const words = ["Web design", "FrontEnd developer", "Backend developer", "FullStack developer"]
     useEffect(() => {
@@ -18,7 +20,6 @@ const TypingEffect = () => {
       return () => clearInterval(intervalID)
     },[])
   
-    console.log(paragraphCounter)
 
   return (
     <div className='writing-effect-container'>

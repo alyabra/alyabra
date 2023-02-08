@@ -1,0 +1,28 @@
+.menu-close-Icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Tiempo de animacion del icono y tamaño*/
+.menu-close-Icon > div {
+width: 100%;
+height: 3px;
+background-color: white;
+border-radius: 2px;
+transition: all .5s;
+transform-origin: left;
+}
+
+/* Clase para que realize la animación */
+.menu-close-Icon--switch div:first-child {
+    transform: rotate(45deg);
+}
+.menu-close-Icon--switch div:nth-child(2) {
+    opacity: 0;
+}
+.menu-close-Icon--switch div:last-child {
+    transform: rotate(-45deg);
+}

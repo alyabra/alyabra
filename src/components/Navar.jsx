@@ -5,7 +5,7 @@ import './Navar.css'
 
 const Navar = () => {
   const [scrolled, setScrolled] = useState(false)
- 
+  const [ showModalMenu, setShowModalMenu ] = useState(false)
   const changeNavStyle = () => {
 
     if(window.scrollY >= 10) {
@@ -17,6 +17,9 @@ const Navar = () => {
   }
   window.addEventListener('scroll', changeNavStyle)
 
+  const activeMenuModal = () => {
+    setShowModalMenu(!showModalMenu)
+  }
   return (
     <nav className={scrolled ? 'active' :''}>
       <div className='left-nav'>
@@ -24,8 +27,7 @@ const Navar = () => {
       </div>
       <div className='right-nav'>
         <div className='icon-menu-container'>
-          <ion-icon name="grid-outline"></ion-icon>
-          <Menu />
+          <Menu  /> 
         </div>
       </div>
     </nav>

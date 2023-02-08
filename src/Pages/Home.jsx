@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='home-container'>
       <div>
-        <h1 >Alyabra Vargas</h1>
+        <h1>Alyabra Vargas</h1>
             <TypingEffect />
       </div>
       <div className='icon-arrow--down-container'>
