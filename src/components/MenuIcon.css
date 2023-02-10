@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 /* Tiempo de animacion del icono y tamaño*/
 .menu-close-Icon > div {
-width: 100%;
+width: 30px;
 height: 3px;
 background-color: white;
 border-radius: 2px;
@@ -19,10 +20,12 @@ transform-origin: left;
 /* Clase para que realize la animación */
 .menu-close-Icon--switch div:first-child {
     transform: rotate(45deg);
+    translate: 4px 0px;
 }
 .menu-close-Icon--switch div:nth-child(2) {
     opacity: 0;
 }
 .menu-close-Icon--switch div:last-child {
     transform: rotate(-45deg);
+    translate: 4px 1px;
 }

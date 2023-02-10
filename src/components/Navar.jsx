@@ -6,20 +6,31 @@ import './Navar.css'
 const Navar = () => {
   const [scrolled, setScrolled] = useState(false)
   const [ showModalMenu, setShowModalMenu ] = useState(false)
-  const changeNavStyle = () => {
 
-    if(window.scrollY >= 10) {
+  const changeNavStyle = () => {
+    if(window.scrollY >= 10 || showModalMenu )  {
       setScrolled(true)
-    }
-    if(window.scrollY <= 10) {
+    } else {
       setScrolled(false)
     }
+    // if(window.scrollY <= 10 && !showModalMenu) {
+    //   setScrolled(false)
+    // }
   }
+
   window.addEventListener('scroll', changeNavStyle)
 
-  const activeMenuModal = () => {
+  const changeShowModalMenu = () => {
     setShowModalMenu(!showModalMenu)
+    if(!showModalMenu) {
+      setScrolled(true)
+    } else {
+      if(window.scrollY <= 10) {
+        setScrolled(false)
+      }
+    }
   }
+
   return (
     <nav className={scrolled ? 'active' :''}>
       <div className='left-nav'>
@@ -27,7 +38,7 @@ const Navar = () => {
       </div>
       <div className='right-nav'>
         <div className='icon-menu-container'>
-          <Menu  /> 
+          <Menu  showModalMenu={showModalMenu} changeShowModalMenu={changeShowModalMenu}/> 
         </div>
       </div>
     </nav>

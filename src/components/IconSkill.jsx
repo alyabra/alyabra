@@ -1,15 +1,13 @@
 import React from 'react'
-import './Icon.css'
+import './IconSkill.css'
 
-const Icon = ({source, link, name}) => {
+const IconSkill = ({source, name}) => {
   return (
     <div className='icon-container'>
-      <a href={link}>
         <img  className='logo' src={source} alt={`Logo ${name}`} />
         <p>{name}</p>
-      </a>
     </div>
   )
 }
 
-export default Icon
+export default IconSkill

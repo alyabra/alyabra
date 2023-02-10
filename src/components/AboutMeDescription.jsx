@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutMeDescription.css'
+import SkillGrid from './SkillGrid'
 
 const AboutMeDescription = ({state}) => {
   return (
@@ -23,22 +24,7 @@ const AboutMeDescription = ({state}) => {
               {
                 state === 'skills' && 
                 <div className='aboutMe-description-text'>
-                  <ul className='aboutMe-description-list'>
-                    <li>HTML, CSS y JavaScript</li>
-                    <li>
-                      React
-                      <ul>
-                        <li>Hooks</li>
-                        <li>React-router-dom</li>
-                      </ul>
-                    </li>
-                    <li>Tailwind CSS</li>
-                    <li>MySQL</li>
-                    <li>Postgrest</li>
-                    {/* <li>MongoDB</li>
-                    <li>Docker</li> */}
-                  
-                  </ul>
+                  <SkillGrid />
                 </div>
               }
             </div>
