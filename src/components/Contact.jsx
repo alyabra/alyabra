@@ -8,10 +8,10 @@ import Icon from './Icon'
 const Contact = () => {
   return (
     <section className='contact-container' id='contact'>
-        <h3>Redes sociales</h3>
+        <h2 className='section-title'>Contacto por redes sociales</h2>
         <div className='icons-container'>
           <Icon source={logoTwitter} link={"https://www.linkedin.com/in/alyabra-alejandro-vargas-ch%C3%A1vez-664ba41a6/"} name={"Twitter"}/>
-          <Icon source={logoLinkeding} link={"https://www.linkedin.com/in/alyabra-alejandro-vargas-ch%C3%A1vez-664ba41a6/"} name={"Linkedin"}/>
+          <Icon source={logoLinkeding} link={"https://www.linkedin.com/in/alyabra-alejandro-vargas-ch%C3%A1vez-664ba41a6/"} name={"LinkedIn"}/>
           <Icon source={logoGithub} link={"https://github.com/alyabra/"} name={"Github"}/>
         </div>
     </section>

@@ -1,15 +1,12 @@
 .aboutMe-description {
     display: flex;
     width: 100%;
-    /* max-height: 100%; */
     height: 80%;
-    /* height: fit-content; */
-    /* height: 100px; */
-    /* overflow-y: hidden; */
+    overflow: hidden;
     background-color: var(--my-color--dark);
     border-radius: 0 5px 5px 5px;
+    box-shadow: 5px 5px 5px 2px black;
     place-items: center;
-    /* padding: 10px; */
     text-overflow: ellipsis;
 }
 .aboutMe-description-text {

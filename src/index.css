@@ -21,7 +21,12 @@ html {
 }
 section[id] {
   scroll-margin-top: 62px;
+
 }
 a {
   color: var(--my-textColor);
+}
+section {
+  padding: 5px 10px;
+  /* min-height: 80vh; */
 }

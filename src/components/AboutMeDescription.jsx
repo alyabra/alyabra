@@ -8,6 +8,8 @@ const AboutMeDescription = ({state}) => {
               {state === 'perfil' && 
                 <div className='aboutMe-description-text aboutMe-description-text--initial' >
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quis, magnam minima fugit quod tenetur saepe, doloremque, a corporis dolore dignissimos pariatur totam maxime? Excepturi laborum adipisci debitis earum eius.
+                </p>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quis, magnam minima fugit quod tenetur saepe, doloremque, a corporis dolore dignissimos pariatur totam maxime?
                 </p>                
                 </div>
               }

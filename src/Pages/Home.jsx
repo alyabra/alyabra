@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
 
   return (
-    <div className='home-container'>
+    <section className='home-container' id='home'>
       <div>
         <h1>Alyabra Vargas</h1>
             <TypingEffect />
@@ -15,7 +15,7 @@ const Home = () => {
          <img  className='icon-arrow--down' src={arrow} alt="" />
         </a>
       </div>
-    </div>
+    </section>
   )
 }
 
