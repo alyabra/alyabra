@@ -1,0 +1,39 @@
+.formContacta-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--my-color--dark);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px black;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.formContacta-container input, textarea {
+    font-size: 1.2rem;
+}
+.formContact-field {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+label {
+    font-size: 1.4rem;
+}
+textarea {
+    height: 100px;
+}
+.formContacta-button--submit {
+    font-size: 1.4rem;
+    background-color: rgb(124, 135, 151);
+    width: 120px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px auto;
+}
