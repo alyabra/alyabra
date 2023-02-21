@@ -2,6 +2,7 @@
     border-top: solid black 3px;
     border-bottom: solid black 3px;
 }
+
 .section-title {
     text-align: center;
     font-size: xx-large;
@@ -38,6 +39,7 @@
     transform: rotate(90deg);
     left: 0;
     border: none;
+    z-index: 2;
 }
 .slider-proyects-botton--right {
     position: absolute;
@@ -47,6 +49,7 @@
     height: 60px;
     border: none;
     transform: rotate(-90deg);
+    z-index: 1;
 }
 .slider-proyects-botton--left img {
     background-color: var(--my-color--dark);

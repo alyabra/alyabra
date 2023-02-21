@@ -8,7 +8,7 @@ const Contact = () => {
     <section className='contact-container' id='contact'>
         <h2 className='section-title'>Contacto</h2>
         <FormContact />
-        <RedesSociales />
+        <RedesSociales withName={true} withTitle={true}/>
     </section>
   )
 }

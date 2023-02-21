@@ -1,3 +1,7 @@
+.proyect {
+    background-color: var(--my-color--dark);
+    position: relative;
+}
 .proyect-title {
     font-size: 1.5rem;
     padding: 4px 0;
@@ -5,4 +9,66 @@
 .proyect a {
     font-size: 1.0rem;
     font-weight: bold;
+}
+.proyect-description-container {
+    position: absolute;
+    background-color: var(--my-color--dark);
+    opacity: 0.8;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    z-index: 1;
+    animation-duration: 1s;
+}
+.proyect-description-container:hover {
+    height: fit-content;
+    opacity: 1;
+}
+.proyect-description-container:hover > p {
+    display: none;
+}
+.proyect-description-container:hover > .proyect-description  {
+    display: block;
+}
+.proyect-description-container:hover > .proyect-description-arrow-container > .icon-arrow--up  {
+    rotate: 0deg;
+}
+
+/* .proyect-description-container:hover > .proyect-description{
+    overflow: visible;
+    white-space: normal;
+    height: fit-content;
+} */
+
+.proyect-description-arrow-container {
+    position: relative;
+}
+.proyect-description {
+    display: none;
+    background-color: var(--my-color--dark);
+    /* overflow: hidden; */
+    /* white-space: nowrap;
+    text-overflow: ellipsis; */
+    /* height: 5px; */
+}
+.image-proyect-desktop {
+    border-radius: 5px;
+    /* z-index: 1; */
+}
+.proyect-tech-list {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.icon-arrow--up {
+    position: absolute;
+    height: 30px;
+    top: -25px;
+    rotate: 180deg;
+    background-color: var(--my-color--dark);
+    bottom: 80px;
+    border-radius: 50%;
+    right: calc(50% - 15px);
 }

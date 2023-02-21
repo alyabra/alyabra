@@ -16,7 +16,7 @@ const SliderPoryects = ({arrayProyects}) => {
     <div className='slider-proyects__container'>
         <div ref={slider} className='slider-proyects'>
             <button onClick={() => diplaceSlider(-1)} className='slider-proyects-botton--left'>
-                <img  className='icon-arrow--down' src={arrow} alt="" />
+                <img  className='icon-arrow--down' src={arrow} alt="Button retroceder" />
             </button>
             {arrayProyects.map(data => <Proyects data={data} key={data.id} />)}
             <button onClick={() => diplaceSlider(1)}  className='slider-proyects-botton--right'>

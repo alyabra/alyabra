@@ -1,0 +1,17 @@
+.list-container--parent {
+  width: 100%;
+  overflow-x: hidden;}
+.list-container {
+    display: flex;
+    flex-direction: row;
+    animation: 10s infinite alternate slidein;
+}
+@keyframes slidein {
+    from {
+      transform: translateX(0vh);
+    }
+
+    to {
+      transform: translateX(-80vw);
+    }
+  }
