@@ -1,3 +1,9 @@
+.icon-menu-container {
+    padding-right: 10px;
+    padding-top: 4px;
+    transition: 2s;
+}
+
 .nav__menu--dropDown {
     display: none;
     position: fixed;

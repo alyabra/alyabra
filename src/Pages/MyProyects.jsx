@@ -1,6 +1,6 @@
 import React from 'react'
 import './MyProyects.css'
-import SliderPoryects from './SliderPoryects'
+import SliderPoryects from '../components/SliderPoryects'
 // const arrayProyect = [
 //     {
 //         title: 'Pasa Lista',

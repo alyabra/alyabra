@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
-import FormContact from './FormContact'
-import RedesSociales from './RedesSociales'
+import FormContact from '../components/FormContact'
+import RedesSociales from '../components/RedesSociales'
 
 const Contact = () => {
   return (

@@ -1,8 +1,8 @@
 import Navar from "./components/Navar"
 import Footer from "./components/Footer"
-import AboutMe from "./components/AboutMe"
-import Contact from "./components/Contact"
-import MyProyects from "./components/MyProyects"
+import AboutMe from "./Pages/AboutMe"
+import Contact from "./Pages/Contact"
+import MyProyects from "./Pages/MyProyects"
 import './App.css'
 import Home from "./Pages/Home"
 

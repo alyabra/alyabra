@@ -6,7 +6,7 @@ import MenuIcon from './MenuIcon'
 const Menu = ({ changeShowModalMenu, showModalMenu }) => {
 
   return (
-    <div>
+    <div className='icon-menu-container'>
       <MenuIcon changeShowModalMenu={changeShowModalMenu} showModalMenu={showModalMenu}/>
       <div className={`nav__menu--dropDown ${showModalMenu ? 'display' : ''}`} id='pp'>
           <ul className='nav__menu--list'>
