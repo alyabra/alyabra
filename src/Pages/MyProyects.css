@@ -32,6 +32,7 @@
     margin-right: 2px;
 }
 .slider-proyects-botton--left {
+    background-color: transparent;
     position: absolute;
     top: calc(50% - 30px);
     width: 60px;
@@ -42,6 +43,7 @@
     z-index: 2;
 }
 .slider-proyects-botton--right {
+    background-color: transparent;
     position: absolute;
     right: 0;
     top: calc(50% - 30px);

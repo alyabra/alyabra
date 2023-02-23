@@ -5,3 +5,13 @@
 .socialMedia-title {
     font-size: 1.4rem;
 }
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.displayRow {
+    flex-direction: row;
+}

@@ -12,7 +12,7 @@ const Menu = ({ changeShowModalMenu, showModalMenu }) => {
           <ul className='nav__menu--list'>
           <li className='nav__menu-item'><a href="#home">Home</a></li>
             <li className='nav__menu-item'><a href="#aboutMe">Sobre mi</a></li>
-            <li className='nav__menu-item'><a href="#briefcase">Portafolio web</a></li>
+            <li className='nav__menu-item'><a href="#briefcase">Proyectos</a></li>
             <li className='nav__menu-item'><a href="#contact">Contacto</a></li>
           </ul>
       </div>      

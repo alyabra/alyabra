@@ -9,7 +9,7 @@ const AboutMe = () => {
     <section className='aboutMe-container' id='aboutMe'>
         <h2 className='section-title aboutMe-info--container-title'>Sobre mi</h2>
         <div className='profilePicture-container'>
-          <img  className='profilePicture' src={photo} alt="Profile picture" />
+          <img  className='profilePicture' src={photo} alt="Foto de perfil" />
         </div>
             <AboutMeBook />
     </section>
