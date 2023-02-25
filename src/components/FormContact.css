@@ -1,21 +1,29 @@
-.formContacta-container {
+.formContact-container {
     display: flex;
     flex-direction: column;
     background-color: var(--my-color--dark);
+    max-width: 600px;
+    
+    min-height: 40vh;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 2px black;
     padding: 10px;
-    margin: 5px;
-    text-align: left;
+    margin: 5px auto;
+}
+.formContact-instructions {
+    /* font-weight: bold; */
+    padding-top: 5px;
 }
 form {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
     gap: 10px;
     justify-content: space-between;
 }
-.formContacta-container input, textarea {
+.formContact-container input, textarea {
     font-size: 1.2rem;
+    padding: 4px;
 }
 .formContact-field {
     display: flex;
@@ -26,7 +34,9 @@ label {
     font-size: 1.4rem;
 }
 textarea {
-    height: 100px;
+    min-height: 20vh;
+    height: auto;
+    max-height: 40vh;
 }
 .formContacta-button--submit {
     font-size: 1.4rem;

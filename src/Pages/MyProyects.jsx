@@ -1,6 +1,6 @@
 import React from 'react'
 import './MyProyects.css'
-import SliderPoryects from '../components/SliderPoryects'
+import SliderProyects from '../components/SliderProyects'
 // const arrayProyect = [
 //     {
 //         title: 'Pasa Lista',
@@ -157,20 +157,20 @@ const arrayProyectClones = [
     },
 ]
 
-
 const MyProyects = () => {
   return (
-    <div>
-        <section className='proyects-container' id='briefcase'>
-                <h2 className='section-title'>Proyectos</h2>
-                <SliderPoryects arrayProyects={arrayProyect}/>
-        </section>
+    <section id='briefcase'>
+        <h2 className='section-title'>Proyectos</h2>
+        <div className='proyects-container'>
+            <h3>Aplicaciones</h3>
+            <SliderProyects arrayProyects={arrayProyect}/>
+        </div>
 
-        <section className='proyects-container' id='briefcase'>
-                <h2 className='section-title'>Proyectos Clones</h2>
-                <SliderPoryects arrayProyects={arrayProyectClones}/>    
-        </section>
-    </div>
+        <div className='proyects-container'>
+            <h3>Proyectos Clones</h3>
+            <SliderProyects arrayProyects={arrayProyectClones}/>    
+        </div>
+    </section>
   )
 }
 
