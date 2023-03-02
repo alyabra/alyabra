@@ -7,14 +7,14 @@ import TypingEffect from '../components/TypingEffect'
 import './Home.css'
 
 
-const Home = () => {
+const Home = ({myref}) => {
 
   return (
-    <section className='home-container' id='home'>
+    <section className='home-container' id='home' ref={myref}>
       <div className='home-container--center'>
         <div className='home-container--center--first'>
           <div className='typingEffect-home-container'>
-            <h1>Alyabra Alejandro VC</h1>
+            <h1 className='home-title-name'>Alyabra Alejandro VC</h1>
             <TypingEffect />
           </div>
           <RedesSociales withTitle={false} withName={false} />

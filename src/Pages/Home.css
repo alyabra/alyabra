@@ -22,6 +22,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+/* .home-title-name {
+    font-size: 4rem;
+} */
 .typingEffect-home-container {
     padding: 5px;
     margin: 5px;
@@ -40,66 +43,9 @@
 .icon-arrow--down {
     font-size: 5px;
 }
-.writing-effect-container { 
-    width: fit-content;
-}
-.writing-effect {
-    display: block;
-    font-family: monospace;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: fit-content;
-    /* animation: typing 1.5s steps(7,end) alternate-reverse; */
-    /* animation-iteration-count: infinite; */
-    overflow: hidden;
-}
-/* ["Web design", "FrontEnd developer", "Backend developer", "Fullstack developer"] */
-.typing0 {
-    animation: typing0 1s steps(10,end);
-    animation-direction: alternate-reverse;
-    /* animation-iteration-count: infinite; */
-}
-.typing1 {
-    animation: typing1 1s steps(18,end) alternate-reverse;
-    /* animation-iteration-count: inherit; */
-}
-.typing2 {
-    animation: typing2 1s steps(17,end) alternate-reverse;
-    /* animation-iteration-count: infinite; */
-}
-.typing3 {
-    animation: typing3 1s steps(19,end) alternate-reverse;
-    /* animation-iteration-count: infinite; */
-}
-@keyframes typing0 {
-    from {
-        width: 10ch;
-    }
-    to {
-        width: 0;
-    }
-}
-@keyframes typing1 {
-    from {
-        width: 18ch;
-    }
-    to {
-        width: 0;
-    }
-}
-@keyframes typing2 {
-    from {
-        width: 17ch;
-    }
-    to {
-        width: 0;
-    }
-}
-@keyframes typing3 {
-    from {
-        width: 19ch;
-    }
-    to {
-        width: 0;
-    }
+
+@media (min-width: 1250px) {
+    .home-title-name {
+        font-size: 4rem;
+    }   
 }

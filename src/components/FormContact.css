@@ -3,7 +3,6 @@
     flex-direction: column;
     background-color: var(--my-color--dark);
     max-width: 600px;
-    
     min-height: 40vh;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 2px black;
@@ -11,7 +10,6 @@
     margin: 5px auto;
 }
 .formContact-instructions {
-    /* font-weight: bold; */
     padding-top: 5px;
 }
 form {
@@ -40,7 +38,7 @@ textarea {
 }
 .formContacta-button--submit {
     font-size: 1.4rem;
-    background-color: rgb(124, 135, 151);
+    background-color: whitesmoke;
     width: 120px;
     padding: 5px;
     border-radius: 10px;

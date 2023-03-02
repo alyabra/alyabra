@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 .typing0 {
-    animation: typing0 1s steps(10,end);
+    animation: typing0 1s steps(10,end) alternate-reverse;
 }
 .typing1 {
     animation: typing1 1s steps(18,end) alternate-reverse;
@@ -53,5 +53,11 @@
     }
     to {
         width: 0;
+    }
+}
+
+@media(min-width: 1250px) {
+    .writing-effect {
+        font-size: 2rem;
     }
 }

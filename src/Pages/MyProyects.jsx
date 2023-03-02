@@ -157,9 +157,9 @@ const arrayProyectClones = [
     },
 ]
 
-const MyProyects = () => {
+const MyProyects = ({ myref }) => {
   return (
-    <section id='briefcase'>
+    <section id='briefcase' ref={myref}>
         <h2 className='section-title'>Proyectos</h2>
         <div className='proyects-container'>
             <h3>Aplicaciones</h3>

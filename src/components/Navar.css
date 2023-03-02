@@ -22,16 +22,13 @@ li {
     font-size: large;
     font-weight: 600;
 }
-
 .menu-list {
     display: none;
 
 }
 .icon-menu {
     width: 80px;
-
 }
-
 .nav--left {
     display: block;
     width: 50%;

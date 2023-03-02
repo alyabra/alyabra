@@ -1,31 +1,46 @@
 .aboutMe-container {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    width: 100%;
     text-align: center;
-    /* height: 80vh; */
     padding: 10px 0;
     margin: 10px 0;
     justify-content: center;
+    width: 100%;
+    height: fit-content;
 }
+
 .aboutMe-info--container-title {
     margin: 5px;
 }
-.profilePicture-container {
+.aboutMe-content--container {
     width: 100%;
     display: flex;
-    place-items: center;
+    place-content: center;
 }
 .profilePicture {
     height: 200px;
+    /* min-height: 200px; */
+    /* max-height: 30vh; */
     width: auto;
     border-radius: 10%;
     margin: 10px auto;
     box-shadow: 5px 5px 5px 2px black;
 }
+.aboutMe-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
 @media (min-width: 1250px) {
-    .aboutMe-container {
+    .aboutMe-content {
         flex-direction: row;
+        min-height: 70vh;
+        place-items: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .profilePicture {
+        height: 40vh;
+        max-height: 400px;
     }
 }
+
