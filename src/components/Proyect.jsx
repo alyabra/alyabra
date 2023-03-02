@@ -1,9 +1,8 @@
 import React from 'react'
-
-import './Proyects.css'
+import './Proyect.css'
 import ProyectDescription from './ProyectDescription'
 
-const Proyects = ({ data }) => {
+const Proyect = ({ data }) => {
     const {title, url_site, url_img} = data
   return (
     <div className='proyect'>
@@ -14,4 +13,4 @@ const Proyects = ({ data }) => {
   )
 }
 
-export default Proyects
+export default Proyect

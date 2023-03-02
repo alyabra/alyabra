@@ -10,6 +10,11 @@
   --my-color--wine: #5E2129;
   --my-textColor: white;
 }
+@media(min-width: 1250px) {
+  :root {
+    font-size: 16px;
+  }
+}
 html {
   width: 100%;
   height: 100%;
@@ -27,6 +32,6 @@ a {
   color: var(--my-textColor);
 }
 section {
-  padding: 5px 10px;
-  /* min-height: 80vh; */
+  padding: 5px 2px;
+  border-bottom: solid black 2px;
 }

@@ -3,16 +3,16 @@ import './FormContact.css'
 
 const FormContact = () => {
   return (
-    <div className='formContacta-container'>
+    <div className='formContact-container'>
       <form>
-        <p className='formContacta-instructions'>Enviame un correo y te contactaré a la brevedad </p>
+        <p className='formContact-instructions'>Enviame un correo y te contactaré a la brevedad </p>
         <div className='formContact-field'>
-            <label htmlFor="">Correo</label>
-            <input type="email" />
+            <label htmlFor="email">Correo</label>
+            <input type="email" name='email' />
         </div>
         <div className='formContact-field'>
-            <label htmlFor="">Mensage</label>
-            <textarea />
+            <label htmlFor="description">Mensage</label>
+            <textarea name='description'/>
         </div>
         <button className='formContacta-button--submit' type='submit'>Enviar</button>
       </form>

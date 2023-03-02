@@ -7,7 +7,9 @@ const TypingEffect = () => {
     const [actives, setActives] = useState(true)
     
     const [paragraphCounter,setParagraphCounter] = useState(0)
+    // TODO: Pasar los datos a utils
     const words = ["Web design", "FrontEnd developer", "Backend developer", "FullStack developer"]
+
     useEffect(() => {
       const intervalID = setInterval(() => {
         setParagraphCounter((currentValue) => {

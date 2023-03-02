@@ -1,21 +1,19 @@
 .aboutMe-description {
     display: flex;
     width: 100%;
-    height: 80%;
     overflow: hidden;
     background-color: var(--my-color--dark);
     border-radius: 0 5px 5px 5px;
     box-shadow: 5px 5px 5px 2px black;
-    place-items: center;
     text-overflow: ellipsis;
 }
-.aboutMe-description-text {
+.aboutMe-description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
     width: 100%;
-    height: 100%;
+    min-height: 30vh;
     padding: 10px;
 }
-.aboutMe-description-list li{
-    font-size: 1rem;
-    font-weight: lighter;
-}
-

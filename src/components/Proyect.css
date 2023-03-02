@@ -1,0 +1,18 @@
+.proyect {
+    /* background-color: var(--my-color--dark); */
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+.proyect-title {
+    font-size: 1.5rem;
+    padding: 4px 0;
+}
+.image-proyect-desktop {
+    width: auto;
+    max-height: 70vh;
+    max-width: 90vw;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
