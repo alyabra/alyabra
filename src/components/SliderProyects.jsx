@@ -6,6 +6,7 @@ import { useRef } from 'react'
 
 const SliderPoryects = ({arrayProyects}) => {
   // Medir el ancho del slider para avanzar lo nevesario con el boton
+  // console.log(arrayProyects)
   const slider = useRef()
   const diplaceSlider = (dx) => {
     slider.current.scrollBy({

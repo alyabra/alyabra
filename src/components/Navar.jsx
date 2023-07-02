@@ -7,8 +7,9 @@ const Navar = ({visibles}) => {
 
   const [ showNavBlack, setShowNavBlack] = useState(false)
   const [ showModalMenu, setShowModalMenu ] = useState(false)
+
   const changeNavStyle = () => {
-    if(window.scrollY >= 10 || showModalMenu )  {
+    if(window.scrollY > 0 || showModalMenu )  {
       setShowNavBlack(true)
     } else {
       setShowNavBlack(false)

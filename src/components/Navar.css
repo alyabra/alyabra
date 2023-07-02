@@ -3,7 +3,7 @@
     background-color: var(--my-color--dark);
     box-shadow:  5px 5px 5px 2px black;
     height: 60px;
-    transition: 0.3s;
+    transition: 1s;
 }
 nav {
     position: sticky;
@@ -24,6 +24,7 @@ li {
 }
 .menu-list {
     display: none;
+    transition: 1s;
 
 }
 .icon-menu {

@@ -5,7 +5,7 @@ import IconSkill from './IconSkill'
 import logoReact from '../assets/react.svg'
 import logoJavascript from '../assets/logo-javascript.svg'
 
-function ProyectDescription({ url_site }) {
+function ProyectDescription({ url_site, description }) {
   return (
     <div className='proyect-description-container'>
           <span className='proyect-description-arrow-container'>
@@ -20,7 +20,7 @@ function ProyectDescription({ url_site }) {
             {/* TODO: Evitar que cuando se de un solo click se abra el link y que se abra en una nueva pestaña */}
             <a href={url_site} target="_blank" rel="noreferrer noopener">Visitar sitio</a>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus esse nulla vero placeat autem odio culpa inventore molestias sit.
+              {description}
             </p>
 
           </div> 
